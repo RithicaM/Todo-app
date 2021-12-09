@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:url("bg.jpg");
+  background-size: cover;
+  opacity: 0.9;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.Completed{
+  text-decoration: line-through;
+}
+.task{
+  cursor: pointer ;
+}
+.main{
+  margin: 0 auto;
+  max-width: 500px;
+
+}
+.content{
+  border: 5px #f3d83f solid;
+  border-radius: 5px;
+  font: size 20px;
+  background-color: #f3d83f;
+
+}
+table{
+width: 100%;
+}
+td:first-child{
+  width: 100%;
+}
+td:last-child{
+ min-width:125px ;
+}
+th{
+  text-align: center;
+}
+tr:nth-child(even){
+  background-color: #f8f89b;
+}
+
+input,button{
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 10px;
+  border: 2px black solid;
+  margin-left: 12px;
+  
+ 
+}
+
+button{
+cursor: pointer;}
+button.add{
+  background-color: #0080ff;
+  color: white;
+  width: 20%;
+}
+button.delete{
+  background-color:#0080ff;
+  color: white;
+  
+}
+button.save{
+  background-color: #0080ff;
+  color: white;
+}
+button.back{
+  background-color: #0080ff;
+  color: white;
+}
+.heading{
+  text-align: center;
+}
